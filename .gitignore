@@ -1,0 +1,14 @@
+# Ignore XAMPP / local files
+/xampp/
+vendor/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive files
+includes/config.php   ← wait — actually do NOT ignore this yet; commit a sample with dummy values
+# Later: create config.sample.php and ignore real config.php
+
+# Logs & temp
+*.log
+*.tmp
